@@ -42,7 +42,7 @@ jobs:
 
     steps:
       - name: Checkout EIP Repository
-        uses: actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f
+        uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62
 
       - name: Install Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf
@@ -66,7 +66,7 @@ jobs:
     
     steps:
       - name: Checkout EIP Repository
-        uses: actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f
+        uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62
         
       - name: Link Checker
         uses: gaurav-nelson/github-action-markdown-link-check@d53a906aa6b22b8979d33bc86170567e619495ec
@@ -82,7 +82,7 @@ jobs:
 
     steps:
       - name: Checkout EIP Repository
-        uses: actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f
+        uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62
 
       - name: Get Changed Files
         id: changed
@@ -109,7 +109,7 @@ jobs:
 
     steps:
       - name: Checkout EIP Repository
-        uses: actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f
+        uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62
 
       - uses: ethereum/eipw-action@af0856c89aa1a245cf0da9ae904eafbbddb94ecf
         id: eipw
@@ -122,7 +122,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout EIP Repository
-        uses: actions/checkout@47fbe2df0ad0e27efb67a70beac3555f192b062f
+        uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62
 
       - name: Get Changed Files
         id: changed
